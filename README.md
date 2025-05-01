@@ -105,7 +105,7 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 | `type_token_ratio`      | Vocabulary richness                                        |
 | `compression_size_reduction` | LZW compression ratio (lyrical repetitiveness)       |
 | `n_gram_repetitiveness` | N-gram repetition measure (2–10 word sequences)           |
-| **Sentiment scores:** `sadness`, `joy`, `love`, `anger`, `fear`, `surprise` (0–1)        |
+| **Sentiment scores:** `sadness`, `joy`, `love`, `anger`, `fear`, `surprise` | values (0–1)|
 | **`topic`**                | Main topic label (`love` or `reflection`)                 |
 
 > **Bolded features** in the dataset are *updates not included in the paper version*.
