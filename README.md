@@ -1,6 +1,6 @@
 # eurovision-song-science
 
-# Eurovision x Hit Song Science
+Eurovision x Hit Song Science
 
 ## 🎤 Eurovision Song Contest Dataset & Analysis
 
@@ -60,7 +60,7 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 | `qualification`     | 0 = Did not qualify, 1 = Qualified, 2 = Pre-qualified         |
 | `place_sf`          | Semi-final ranking                                            |
 | `place_final`       | Final ranking                                                 |
-| `place_contest`     | Overall ranking (includes pre-qualified countries)           |
+| `place_contest`     | Overall ranking                                               |
 | `points_sf`         | Semi-final points (televote only from 2023)                   |
 | `points_final`      | Total final points (jury + televote)                          |
 | `points_tele_final` | Final televote points (from 2016)                             |
@@ -70,11 +70,11 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 
 ### 📺 YouTube Links
 
-| Column           | Description                                                   |
-|------------------|---------------------------------------------------------------|
-| `performance_url`| Live contest performance video                                |
-| `audio_url`      | Studio recording (for audio feature extraction)              |
-| `pre_contest_url`| Official pre-contest music video                              |
+| Column           | Description                                                     |
+|------------------|-----------------------------------------------------------------|
+| `performance_url`| Live contest performance video                                  |
+| `audio_url`      | Studio recording (for audio feature extraction)                 |
+| `pre_contest_url`| Official pre-contest music video (for YouTube feature extraction|
 
 ---
 
@@ -86,7 +86,7 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 | `running_sf`         | Performance order in semi-finals                             |
 | `LY_SF_reciprocation`| Previous year's vote reciprocation ratio (semi-finals)       |
 | `LY_SF_vote`         | Previous year's vote ratio (semi-finals)                     |
-| `LY_final_reciprocation`| Vote reciprocation ratio in the final (prior year)        |
+| `LY_final_reciprocation`| Previous year's vote reciprocation ratio (final)       |
 | `LY_final_vote`      | Previous year's vote ratio (final)                           |
 
 ---
@@ -105,14 +105,14 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 | `type_token_ratio`      | Vocabulary richness                                        |
 | `compression_size_reduction` | LZW compression ratio (lyrical repetitiveness)       |
 | `n_gram_repetitiveness` | N-gram repetition measure (2–10 word sequences)           |
-| Sentiment scores: `sadness`, `joy`, `love`, `anger`, `fear`, `surprise` (0–1)        |
-| `topic`                 | Main topic label (`love` or `reflection`)                 |
+| **Sentiment scores:** `sadness`, `joy`, `love`, `anger`, `fear`, `surprise` (0–1)        |
+| **`topic`**                | Main topic label (`love` or `reflection`)                 |
 
 > **Bolded features** in the dataset are *updates not included in the paper version*.
 
 ---
 
-### 🎥 YouTube Analytics
+### 🎥 YouTube Features
 
 | Column               | Description                                                |
 |----------------------|------------------------------------------------------------|
@@ -123,14 +123,15 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 | `comments`           | Total comments                                            |
 | `days_since_upload`  | Time difference since upload                              |
 | `yt_views_per_day`   | Views per day                                             |
-| `average_replay_intensity`| Average intensity of most replayed segments         |
-| `skewness_value`     | Skewness of replay distribution                           |
-| `mean_abs_difference`| Smoothness measure (abs first differences)                |
-| `variance_difference`| Smoothness measure (variance of differences)              |
-| `primary_peak_time`  | % position of most replayed moment                        |
-| `number_of_maxima`   | Number of local peaks                                     |
-| `additional_peak_times`| Time positions of other peaks                          |
+| **`average_replay_intensity`**| Average intensity of most replayed segments         |
+| **`skewness_value`**     | Skewness of replay distribution                           |
+| **`mean_abs_difference`**| Smoothness measure (abs first differences)                |
+| **`variance_difference`**| Smoothness measure (variance of differences)              |
+| **`primary_peak_time`**  | % position of most replayed moment                        |
+| **`number_of_maxima`**   | Number of local peaks                                     |
+| **`additional_peak_times`**| Time positions of other peaks                          |
 
+> **Bolded features** in the dataset are *updates not included in the paper version*.
 ---
 
 ### 🎧 Audio Features
