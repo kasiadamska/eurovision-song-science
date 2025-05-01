@@ -1,11 +1,10 @@
 # eurovision-song-science
-This repository contains comprehensive data on Eurovision Song Contest entries from 2008 to 2024, including song details and results for each participating country. The dataset includes metadata such as audio features, lyrics-based features, voting history, and YouTube performance metrics. Song information for the 2025 contest is also included.
 
-Hit Song Science x Eurovision
+# Eurovision x Hit Song Science
 
-# 🎤 Eurovision Song Contest Dataset & Analysis
+## 🎤 Eurovision Song Contest Dataset & Analysis
 
-This repository contains a comprehensive dataset and analysis of the **Eurovision Song Contest** from 2008 to 2025, featuring 683 songs in total. Whether you're exploring patterns in musical features, lyrical sentiment, or voting behavior, this dataset provides rich information for machine learning and data analysis tasks.
+This repository contains a comprehensive dataset and analysis of the Eurovision Song Contest from 2008 to 2024, covering 646 songs in total. It includes detailed metadata for each entry, such as audio features, lyrics attributes, voting history, and YouTube performance metrics, for all participating songs/countries. Whether you're exploring patterns in music, sentiment, or voting behavior, this dataset offers valuable insights for data analysis and machine learning applications. Song information for the upcoming 2025 contest is also included (37 songs).
 
 ---
 
@@ -26,7 +25,7 @@ This setup allows for isolated analysis of semi-final vs. grand final performanc
 - **Supplementary Data**: [EurovisionWorld](https://eurovisionworld.com/)
   - Results & voting data (2023–2024)
   - Song metadata & lyrics (2024–2025)
-  - English lyric translations (all years)
+  - English lyrics translations (all years)
 - **Audio**: Studio recordings only via YouTube links (for consistency in analysis).
 
 ---
@@ -151,13 +150,13 @@ spectral energy band high, spectral energy band low,
 spectral energy band middle high, spectral energy band middle low,  
 spectral entropy, spectral flux, spectral kurtosis, spectral rms, spectral rolloff,  
 spectral skewness, spectral spread, spectral strong peak)  
-mfcc, gfcc, spectral contrast coeffs, spectral contrast valleys, silence rate
+**mfcc, gfcc, spectral contrast coeffs, spectral contrast valleys, silence rate**
 
 **Rhythm**  
-bpm, beats count, beats loudness, beats loudness band ratio, onset rate, danceability
+bpm, beats count, beats loudness, **beats loudness band ratio**, onset rate, danceability
 
 **Tonal**  
-chords changes rate, chords number rate, chords strength, chords histogram,  
+chords changes rate, chords number rate, chords strength, **chords histogram**,  
 hpcp crest, hpcp entropy, tuning diatonic strength, tuning equal tempered deviation, tuning frequency,  
 tuning nontempered energy ratio, chords key, chords scale, key edma (strength, key, scale),  
 key krumhansl (strength, key, scale), key temperley (strength, key, scale)
