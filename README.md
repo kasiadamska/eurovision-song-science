@@ -180,5 +180,7 @@ See `paper-analysis/` for scripts covering:
 
 ## 📝 Citation
 
-> This dataset and analysis are part of an **upcoming publication**. The citation and link will be provided here upon publication.
+> This dataset and analysis are part of the following publication.
+> 
+> Adamska, K., & Reiss, J. (2025). Predicting Eurovision Song Contest Results: A Hit Song Science Approach.Transactions of the International Society for Music Information Retrieval, 8(1), 93–107. DOI: https://doi.org/10.5334/tismir.214
 
