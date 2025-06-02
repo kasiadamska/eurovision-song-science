@@ -2,6 +2,9 @@
 
 Eurovision x Hit Song Science
 
+[![Watch the interview on YouTube](https://img.youtube.com/vi/MI2t5A5NMcc/0.jpg)](https://www.youtube.com/watch?v=MI2t5A5NMcc)
+
+
 ## 🎤 Eurovision Song Contest Dataset & Analysis
 
 This repository contains a comprehensive dataset and analysis of the Eurovision Song Contest from 2008 to 2024, covering 646 songs in total. It includes detailed metadata for each entry, such as audio features, lyrics attributes, voting history, and YouTube performance metrics, for all participating songs/countries. Whether you're exploring patterns in music, sentiment, or voting behavior, this dataset offers valuable insights for data analysis and machine learning applications. Song information for the upcoming 2025 contest is also included (37 songs).
